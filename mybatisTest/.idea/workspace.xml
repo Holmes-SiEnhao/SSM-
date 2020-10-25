@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0fcaa43-59fb-4b75-b939-38f9931ec5f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jLbksCXEDx17aHmoLTkXMF8gbJ" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/demo/utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEA\Code_demo\MybatisDemo\mybatisTest\src\main\java\com\demo\utils" />
+      <recent name="G:\IDEA\Code_demo\MybatisDemo\mybatisTest\src\main\resources" />
+      <recent name="G:\IDEA\Code_demo\MybatisDemo\mybatisTest\src\main\java\com\demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestCode.findAll">
+    <configuration name="TestCode.TestQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisTest" />
+      <option name="PACKAGE_NAME" value="com.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCode" />
+      <option name="METHOD_NAME" value="TestQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCode.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisTest" />
+      <option name="PACKAGE_NAME" value="com.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCode" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCode.insertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisTest" />
+      <option name="PACKAGE_NAME" value="com.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCode" />
+      <option name="METHOD_NAME" value="insertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCode.findAll" />
+        <item itemvalue="JUnit.TestCode.insertUser" />
+        <item itemvalue="JUnit.TestCode.TestQuery" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0fcaa43-59fb-4b75-b939-38f9931ec5f7" name="Default Changelist" comment="" />
+      <created>1603586464070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603586464070</updated>
+      <workItem from="1603586465931" duration="29000" />
+      <workItem from="1603586501587" duration="22000" />
+      <workItem from="1603586598851" duration="7023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Auto_Import" timestamp="1603588302415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Auto_Import/0.0.1280.680@0.0.1280.680" timestamp="1603588302415" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1603588726416">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603588726416" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603586522779">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603586522779" />
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1603594261932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
+    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1603594261932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
+    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1603594261932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
+    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1603594261932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
+  </component>
+</project>
