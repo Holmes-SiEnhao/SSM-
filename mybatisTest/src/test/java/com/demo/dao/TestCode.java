@@ -30,8 +30,8 @@ public class TestCode {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         HashMap map = new HashMap();
-        map.put("id",2);
-        map.put("username","user1");
+        map.put("id",3);
+        map.put("username","斯恩昊");
         map.put("password","1234");
         mapper.insertUser(map);
         sqlSession.close();
@@ -43,6 +43,35 @@ public class TestCode {
         List<User> list = mapper.findAll();
         for (User user : list) {
             System.out.println(user);
+        }
+        sqlSession.close();
+    }
+
+    @Test
+    public void DeleteUser(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        int count = mapper.deleteUser(1);
+        if (count>0){
+            System.out.println("User already be deleted!");
+        }else{
+            System.out.println("Delete failure！");
+        }
+        sqlSession.close();
+    }
+
+    @Test
+    public void UpdateUserInfo(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        HashMap map = new HashMap();
+        map.put("password","test123");
+        map.put("id",2);
+        int count = mapper.updateUser(map);
+        if (count>0){
+            System.out.println("User already be updated!");
+        }else{
+            System.out.println("Update failure！");
         }
         sqlSession.close();
     }

@@ -17,13 +17,14 @@
   </component>
   <component name="ProjectId" id="1jLbksCXEDx17aHmoLTkXMF8gbJ" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/demo/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -36,12 +37,32 @@
       <recent name="G:\IDEA\Code_demo\MybatisDemo\mybatisTest\src\main\java\com\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCode.findAll">
+  <component name="RunManager" selected="JUnit.TestCode.UpdateUserInfo">
+    <configuration name="TestCode.DeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisTest" />
+      <option name="PACKAGE_NAME" value="com.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCode" />
+      <option name="METHOD_NAME" value="DeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCode.TestQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisTest" />
       <option name="PACKAGE_NAME" value="com.demo.dao" />
       <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCode" />
       <option name="METHOD_NAME" value="TestQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCode.UpdateUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisTest" />
+      <option name="PACKAGE_NAME" value="com.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCode" />
+      <option name="METHOD_NAME" value="UpdateUserInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,8 +90,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCode.findAll" />
+        <item itemvalue="JUnit.TestCode.UpdateUserInfo" />
+        <item itemvalue="JUnit.TestCode.DeleteUser" />
         <item itemvalue="JUnit.TestCode.insertUser" />
+        <item itemvalue="JUnit.TestCode.findAll" />
         <item itemvalue="JUnit.TestCode.TestQuery" />
       </list>
     </recent_temporary>
@@ -88,40 +111,58 @@
       <workItem from="1603586465931" duration="29000" />
       <workItem from="1603586501587" duration="22000" />
       <workItem from="1603586598851" duration="7023000" />
+      <workItem from="1603695869175" duration="1032000" />
+      <workItem from="1603771208756" duration="87000" />
+      <workItem from="1603774192854" duration="75000" />
+      <workItem from="1604027209343" duration="875000" />
+      <workItem from="1604037581945" duration="67000" />
+      <workItem from="1604241856917" duration="4321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Auto_Import" timestamp="1603588302415">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Auto_Import/0.0.1280.680@0.0.1280.680" timestamp="1603588302415" />
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604027309052">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604027309052" />
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1603588726416">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603588726416" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603586522779">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604037631249">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603586522779" />
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1603594261932">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604037631249" />
+    <state width="1237" height="54" key="GridCell.Tab.0.bottom" timestamp="1604246396335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
-    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1603594261932">
+    <state width="1237" height="54" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604246396335" />
+    <state width="1237" height="54" key="GridCell.Tab.0.center" timestamp="1604246396335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
-    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1603594261932">
+    <state width="1237" height="54" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604246396335" />
+    <state width="1237" height="54" key="GridCell.Tab.0.left" timestamp="1604246396335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
-    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1603594261932">
+    <state width="1237" height="54" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604246396335" />
+    <state width="1237" height="54" key="GridCell.Tab.0.right" timestamp="1604246396335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603594261932" />
+    <state width="1237" height="54" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604246396335" />
+    <state x="274" y="1" key="new project wizard" timestamp="1604037647849">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="274" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1604037647849" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1604243966750">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604243966750" />
   </component>
 </project>

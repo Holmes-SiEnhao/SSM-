@@ -1,9 +1,6 @@
 package com.demo.dao;
-
 import com.demo.pojo.User;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 import java.util.Map;
@@ -25,4 +22,12 @@ public interface UserMapper {
 
     @Select("select * from user")
     List<User> findAll();
+
+//    这是一个删除的方法
+    @Delete("delete from user where id = #{id}")
+    int deleteUser(@Param("id") int id);
+
+//    这是一个修改方法
+    @Update("update user set password = #{password} where id = #{id}")
+    int updateUser(Map map);
 }
