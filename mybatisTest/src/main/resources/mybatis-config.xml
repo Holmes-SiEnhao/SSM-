@@ -8,7 +8,7 @@
         <setting name="logImpl" value="STDOUT_LOGGING"/>
     </settings>
     <typeAliases>
-        <package name="com.demo.dao.pojo"/>
+        <package name="com.demo.pojo"/>
     </typeAliases>
 
     <environments default="development">
@@ -23,7 +23,7 @@
         </environment>
     </environments>
 <!--    绑定接口-->
-    <mappers>
-        <mapper class="com.demo.dao.UserMapper"/>
-    </mappers>
+<mappers>
+    <mapper class="com.demo.dao.UserMapper"/>
+</mappers>
 </configuration>

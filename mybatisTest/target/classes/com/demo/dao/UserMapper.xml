@@ -80,6 +80,6 @@
     </select>
     
     <select id="fuzzyQuery" parameterType="String" resultType="user">
-       select * from user where username like "%"#{username}"%"
+    select * from user where username like concat(concat('%',#{username},'%'))
     </select>
 </mapper>

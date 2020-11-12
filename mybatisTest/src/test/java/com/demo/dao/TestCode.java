@@ -30,8 +30,8 @@ public class TestCode {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         HashMap map = new HashMap();
-        map.put("id",3);
-        map.put("username","斯恩昊");
+        map.put("id",5);
+        map.put("username","zhangsan");
         map.put("password","1234");
         mapper.insertUser(map);
         sqlSession.close();
@@ -75,4 +75,7 @@ public class TestCode {
         }
         sqlSession.close();
     }
+
+
+
 }
