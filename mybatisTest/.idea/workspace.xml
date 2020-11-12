@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0fcaa43-59fb-4b75-b939-38f9931ec5f7" name="Default Changelist" comment="" />
+    <list default="true" id="c0fcaa43-59fb-4b75-b939-38f9931ec5f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/dao/UserMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jLbksCXEDx17aHmoLTkXMF8gbJ" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -23,8 +29,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatisDemo2/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -119,6 +126,7 @@
       <workItem from="1604587591331" duration="327000" />
       <workItem from="1605056920488" duration="24225000" />
       <workItem from="1605176864818" duration="7768000" />
+      <workItem from="1605194640172" duration="30000" />
     </task>
     <servers />
   </component>
@@ -146,22 +154,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605176896337" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1605186755925">
+    <state width="1237" height="395" key="GridCell.Tab.0.bottom" timestamp="1605194669422">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605186755925" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1605186755925">
+    <state width="1237" height="395" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
+    <state width="1237" height="395" key="GridCell.Tab.0.center" timestamp="1605194669422">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605186755925" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1605186755925">
+    <state width="1237" height="395" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
+    <state width="1237" height="395" key="GridCell.Tab.0.left" timestamp="1605194669422">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605186755925" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1605186755925">
+    <state width="1237" height="395" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
+    <state width="1237" height="395" key="GridCell.Tab.0.right" timestamp="1605194669422">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605186755925" />
+    <state width="1237" height="395" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1605186755925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
