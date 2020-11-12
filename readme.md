@@ -1,2 +1,0 @@
-在db.properties文件中记得修改url的数据库以及username和password
-
