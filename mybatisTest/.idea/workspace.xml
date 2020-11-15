@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0fcaa43-59fb-4b75-b939-38f9931ec5f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/dao/TestCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/dao/TestCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mybatisTest.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/demo/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/dao/TestCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/dao/TestCheck.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mybatisDemo1/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,31 +52,18 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestCheck.fuzzyQueryUser">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.Main" />
+      <module name="mybatisTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisTest" />
       <option name="PACKAGE_NAME" value="com.demo.dao" />
       <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCheck" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCheck.findAllUser2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisTest" />
-      <option name="PACKAGE_NAME" value="com.demo.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCheck" />
-      <option name="METHOD_NAME" value="findAllUser2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCheck.findUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisTest" />
-      <option name="PACKAGE_NAME" value="com.demo.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCheck" />
-      <option name="METHOD_NAME" value="findUserById" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,13 +88,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCheck.testLog4j" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisTest" />
+      <option name="PACKAGE_NAME" value="com.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.TestCheck" />
+      <option name="METHOD_NAME" value="testLog4j" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestCheck.fuzzyQueryUser" />
+        <item itemvalue="JUnit.TestCheck.testLog4j" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestCheck" />
         <item itemvalue="JUnit.TestCheck.queryUserLimit" />
-        <item itemvalue="JUnit.TestCheck.findAllUser2" />
-        <item itemvalue="JUnit.TestCheck.findUserById" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +131,9 @@
       <workItem from="1605056920488" duration="24225000" />
       <workItem from="1605176864818" duration="7768000" />
       <workItem from="1605194640172" duration="30000" />
-      <workItem from="1605320466768" duration="1422000" />
+      <workItem from="1605320466768" duration="2863000" />
+      <workItem from="1605359961958" duration="3590000" />
+      <workItem from="1605404376395" duration="4494000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1605320520381</created>
@@ -176,26 +180,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="204" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1605320594937" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605176896337">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605404649047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605176896337" />
-    <state width="1237" height="395" key="GridCell.Tab.0.bottom" timestamp="1605194669422">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605404649047" />
+    <state width="1237" height="106" key="GridCell.Tab.0.bottom" timestamp="1605408374172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="395" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
-    <state width="1237" height="395" key="GridCell.Tab.0.center" timestamp="1605194669422">
+    <state width="1237" height="106" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605408374172" />
+    <state width="1237" height="106" key="GridCell.Tab.0.center" timestamp="1605408374172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="395" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
-    <state width="1237" height="395" key="GridCell.Tab.0.left" timestamp="1605194669422">
+    <state width="1237" height="106" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605408374172" />
+    <state width="1237" height="106" key="GridCell.Tab.0.left" timestamp="1605408374172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="395" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
-    <state width="1237" height="395" key="GridCell.Tab.0.right" timestamp="1605194669422">
+    <state width="1237" height="106" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605408374172" />
+    <state width="1237" height="106" key="GridCell.Tab.0.right" timestamp="1605408374172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="395" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605194669422" />
+    <state width="1237" height="106" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605408374172" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1605186755925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -216,10 +220,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605320577556" />
-    <state x="274" y="1" key="new project wizard" timestamp="1604037647849">
+    <state x="274" y="1" key="new project wizard" timestamp="1605369097743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="274" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1604037647849" />
+    <state x="274" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1605369097743" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605077130684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

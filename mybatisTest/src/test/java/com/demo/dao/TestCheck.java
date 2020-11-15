@@ -3,6 +3,7 @@ package com.demo.dao;
 import com.demo.pojo.User;
 import com.demo.utils.MybatisUtils;
 import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -129,4 +130,13 @@ public class TestCheck {
         }
         sqlSession.close();
     }
+
+    static Logger logger = Logger.getLogger(TestCheck.class);
+    @Test
+    public void testLog4j(){
+        logger.info("info:进入了log4j");
+        logger.debug("debug:进入了log4j");
+        logger.error("error:进入了log4j");
+    }
+
 }
